@@ -31,8 +31,14 @@ body {
 }
 
 .homepage{
+    position:fixed;
     font-size: min(9vh, 9vw);
     color: #b0b3aa;
+}
+
+.homelink:link, .homelink:visited{
+    color: #b0b3aa;
+    text-decoration: none;
 }
 
 h1 {
@@ -55,7 +61,9 @@ p{
     width: clamp(60vw, 50vh, 75vw);
 }
 .scroll {
+    z-index: 1;
     margin: auto;
+    position: relative;
     background-color: #b0b3aa;
     width: clamp(80vw, 60vh, 95vw);
     padding-bottom: 1em;
