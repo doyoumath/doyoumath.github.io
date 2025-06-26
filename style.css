@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Huninn&family=Syne+Mono&display=swap');
+.syne-mono-regular {
+    font-family: "Syne Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.huninn-regular {
+    font-family: "Huninn", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    position: relative;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    height: 100vh;
+    background-color: #0D3718;
+}
+
+.dym{
+    position: relative;
+    height: 50vh;
+    overflow: hidden;
+    align-content: center;
+
+}
+
+h1 {
+    font-family: "Syne Mono", monospace;
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 1em;
+}
+
+h3{
+    font-family: "Huninn", sans-serif;
+}
+
+p{
+    font-family: "Huninn", sans-serif;
+    text-indent: 2em
+}
+
+.padded{
+    margin:auto;
+    width: clamp(60vw, 50vh, 75vw);
+}
+.scroll {
+    margin: auto;
+    background-color: #b0b3aa;
+    width: clamp(80vw, 60vh, 95vw);
+    padding-bottom: 1em;
+}
