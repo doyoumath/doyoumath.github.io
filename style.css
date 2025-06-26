@@ -45,7 +45,7 @@ p{
 }
 
 .padded{
-    margin:auto;
+    margin: 0 auto auto;
     width: clamp(60vw, 50vh, 75vw);
 }
 .scroll {
