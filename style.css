@@ -25,13 +25,20 @@ body {
     height: 20vh;
     overflow: hidden;
     align-content: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.homepage{
+    font-size: min(9vh, 9vw);
+    color: #b0b3aa;
 }
 
 h1 {
     font-family: "Syne Mono", monospace;
     font-size: xx-large;
     text-align: center;
-    padding-top: 1em;
 }
 
 h3{
@@ -52,4 +59,13 @@ p{
     background-color: #b0b3aa;
     width: clamp(80vw, 60vh, 95vw);
     padding-bottom: 1em;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+button{
+    background-color: #b0b3aa;
+    font-family: "Syne Mono", monospace;
 }

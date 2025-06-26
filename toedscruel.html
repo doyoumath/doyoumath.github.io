@@ -7,11 +7,11 @@
   <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
 </head>
 <body>
-<section class="dym">
-  <h1 style="color: #b0b3aa">do you math?</h1>
-</section>
+<div class="dym">
+  <h1 class="homepage">do you math?</h1>
+</div>
 <section class="scroll">
-  <h1 class="padded">toedscruel ogerpon</h1>
+  <h1 class="padded" style="padding-top: 1em">toedscruel ogerpon</h1>
   <p class="padded syne-mono-regular" style="text-align: center; text-indent: 0">by ray chen</p>
   <div class="padded">
     <h3>Introduction</h3>
@@ -21,6 +21,9 @@
     <p>
       Here’s my agenda for the day: First, I’m going to discuss the decklist itself, including the roles of each card in the deck, the general game plan of the deck, and resource conservation. I consider all of these things to be one big overarching topic, which I’m going to call the “General how to play.” Then, I’m going to get into one of the most important parts of maximizing your winrate with the deck: sequencing, including basic sequencing and when you should consider the context of the game. Last, I’m going to discuss in detail how you should adjust your gameplan for specific matchups.
     </p>
+    <h3>Decklist</h3>
+    <img src="toedscruel%20ogrepon.png">
+    <button onclick="copyText()">Copy to Clipboard</button>
     <h3>General Game Plan</h3>
     <p>
       Starting with the general game plan, I would like to first say that Toedscruel is an aggressive deck, and you should go into the game with that in mind. In every matchup, you want to be the player who is ahead in the prize race, which means you are taking the first 2 prizes in the aggro mirror matchup, or getting the first attack in any slow matchup against an evolving deck. Another part of the general gameplan: with the exception of certain matchups, you should always go second with the deck. Not only is the deck way more consistent going second, but your opponent will likely be less consistent, and it is quite easy to cheese games with either Budew or Ogerpon donk. With that, let’s discuss the first category of cards in the deck: the attackers.
@@ -268,7 +271,41 @@
       With that, that’s some of my thoughts on Toedscruel. I think going into the World Championships the deck is looking like a much worse play than it was for NAIC but maybe still an ok play, it definitely takes a solid matchup spread across the board, but Gardevoir is looking like it will be more annoying than before, and although I haven’t played many games of the matchup, I don’t imagine that Miraidon ex will be a good one. Hope you enjoyed hearing what I have to say!
     </p>
   </div>
-
 </section>
+<script>
+  function copyText() {
+
+    /* Copy text into clipboard */
+    navigator.clipboard.writeText
+    ("Pokémon: 18\n" +
+            "3 Toedscool PAR 16\n" +
+            "1 Toedscool SCR 17\n" +
+            "3 Toedscruel ex OBF 22\n" +
+            "1 Toedscruel PAR 17\n" +
+            "4 Teal Mask Ogerpon ex TWM 25\n" +
+            "1 Iron Leaves ex TEF 25\n" +
+            "1 Squawkabilly ex PAL 169\n" +
+            "1 Latias ex SSP 76\n" +
+            "1 Fezandipiti ex SFA 38\n" +
+            "1 Mew ex MEW 151\n" +
+            "1 Budew PRE 4\n" +
+            "\n" +
+            "Trainer: 30\n" +
+            "4 Professor's Research JTG 155\n" +
+            "3 Iono PAL 185\n" +
+            "3 Boss's Orders PAL 172\n" +
+            "4 Bug Catching Set TWM 143\n" +
+            "4 Nest Ball SVI 181\n" +
+            "4 Energy Switch SVI 173\n" +
+            "2 Ultra Ball SVI 196\n" +
+            "2 Super Rod PAL 188\n" +
+            "1 Prime Catcher TEF 157\n" +
+            "3 Area Zero Underdepths SCR 131\n" +
+            "\n" +
+            "Energy: 12\n" +
+            "12 Grass Energy SVE 9");
+    alert("Copied!")
+  }
+</script>
 </body>
 </html>
