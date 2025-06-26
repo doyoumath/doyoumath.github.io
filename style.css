@@ -22,10 +22,9 @@ body {
 
 .dym{
     position: relative;
-    height: 50vh;
+    height: 20vh;
     overflow: hidden;
     align-content: center;
-
 }
 
 h1 {
