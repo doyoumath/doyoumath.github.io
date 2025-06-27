@@ -41,6 +41,11 @@ body {
     text-decoration: none;
 }
 
+.toc:link, .toc:visited{
+    color: black;
+    font-family: "Huninn", sans-serif;
+}
+
 h1 {
     font-family: "Syne Mono", monospace;
     font-size: xx-large;
